@@ -1,6 +1,7 @@
 // Step 1: Import React
 import * as React from 'react'
 import Layout from '../components/layout'
+import Seo from '../components/seo'
 
 // Step 2: Define your component
 const AboutPage = () => {
@@ -11,8 +12,8 @@ const AboutPage = () => {
   )
 }
 
-// TODO: not todo, but this maintains metadata for the page
-export const Head = () => <title>About Me</title>
+// TODO: updated to use Seo component for browser tab title
+export const Head = () => <Seo title="About Me" />
 
 // Step 3: Export your component
 export default AboutPage
