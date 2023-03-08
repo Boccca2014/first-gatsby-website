@@ -1,3 +1,10 @@
+## Learning Gatsby
+I'm familiar with React but wanted to learn more about enhanced React frameworks like Gatsby. I followed
+along with Gatsby's thorough tutorial and recommend you do the same if you're just getting started.
+
+You can view the final product [here](https://firstgatsbywebsitemain21605.gatsbyjs.io/).
+And find the tutorial links below. Good luck!
+
 <p align="center">
   <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
