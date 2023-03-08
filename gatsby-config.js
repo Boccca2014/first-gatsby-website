@@ -9,6 +9,7 @@ module.exports = {
   plugins: [
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
     // must restart dev server after to set changes when this package is used
     {
       resolve: "gatsby-source-filesystem",
