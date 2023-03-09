@@ -4,7 +4,7 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import Layout from '../../components/layout'
 import Seo from '../../components/seo'
 
-// TODO: Don't forget `children` is the actual content of each blog post
+// NOTE: Don't forget `children` is the actual content of each blog post
 const BlogPost = ({ data, children }) => {
   // grabs image path with simpler format
   // same as `data.mdx.frontmatter.hero_image.childImageSharp.gatsbyImageData`
@@ -17,7 +17,7 @@ const BlogPost = ({ data, children }) => {
         image={image}
         alt={data.mdx.frontmatter.hero_image_alt}
       />
-      {/* TODO: note that we use a-tag because it's a link to an external site */}
+      {/* NOTE: note that we use a-tag because it's a link to an external site */}
       <p>
         Photo Credit:{" "}
         <a href={data.mdx.frontmatter.hero_image_credit_link}>

@@ -23,7 +23,7 @@ const BlogPage = ({ data }) => {
   )
 }
 
-// TODO: add back `excerpt` in query to use excerpt tag above
+// NOTE: add back `excerpt` in query to use excerpt tag above
 export const query = graphql`
   query {
     allMdx(sort: { frontmatter: { date: DESC }}) {

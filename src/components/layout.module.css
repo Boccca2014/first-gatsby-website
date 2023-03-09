@@ -8,7 +8,7 @@
   color: rebeccapurple;
 }
 
-/* TODO: kebab-case will be converted to camelCase in js */
+/* NOTE: kebab-case will be converted to camelCase in js */
 .nav-links {
   display: flex;
   list-style: none;

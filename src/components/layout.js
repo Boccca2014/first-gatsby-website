@@ -1,5 +1,5 @@
 import * as React from 'react'
-/* TODO: premade React component, only use for internal links
+/* NOTE: premade React component, only use for internal links
   useStaticQuery is a built-in React hook to make GraphQL queries (which only be called ONCE per file) */
 import { Link, useStaticQuery, graphql } from 'gatsby'
 import {

@@ -12,7 +12,7 @@ const AboutPage = () => {
   )
 }
 
-// TODO: updated to use Seo component for browser tab title
+// NOTE: updated to use Seo component for browser tab title
 export const Head = () => <Seo title="About Me" />
 
 // Step 3: Export your component
